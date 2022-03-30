@@ -9,8 +9,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import kr.co.billpost.tasklet.Task;
+import lombok.RequiredArgsConstructor;
+
 @Configuration
+@RequiredArgsConstructor
 public class BatchConfig {
+	private final Task task;
+	
 	@Autowired
 	public JobBuilderFactory jobBuilderFactory;
 	
@@ -25,6 +31,6 @@ public class BatchConfig {
 	
 	@Bean
 	public Step step() {
-		return stepBuilderFactory.get("step").tasklet(null).build();
+		return stepBuilderFactory.get("step").tasklet(task).build();
 	}
 }
