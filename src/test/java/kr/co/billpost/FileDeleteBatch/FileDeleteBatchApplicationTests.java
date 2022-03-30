@@ -8,6 +8,7 @@ class FileDeleteBatchApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
 
 }

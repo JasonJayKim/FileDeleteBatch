@@ -1,4 +1,4 @@
-package kr.co.billpost.FileDeleteBatch;
+package kr.co.billpost.fileDeleteBatch;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParameters;
