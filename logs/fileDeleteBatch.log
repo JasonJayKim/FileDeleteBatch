@@ -233,3 +233,790 @@ I 20220331 111158 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                    
 I 20220331 111158 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app.log is deleted
 I 20220331 111158 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResX Installer.app is deleted
 I 20220331 111158 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app_2.log is deleted
+I 20220331 113851 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 72321 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 113851 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 113851 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+W 20220331 113853 [o.s.b.c.c.a.DefaultBatchConfigurer] [initialize:98]                   : No datasource was provided...using a Map based JobRepository
+W 20220331 113853 [o.s.b.c.c.a.DefaultBatchConfigurer] [initialize:101]                  : No transaction manager was provided, using a ResourcelessTransactionManager
+I 20220331 113854 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 2.965 seconds (JVM running for 3.625)
+I 20220331 113854 [k.c.b.f.t.Task] [execute:24]                                          : Batch Started.
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41812
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1321
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1321
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 33061
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41853
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 24233
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2542
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38516
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 32872
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2610
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 40313
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109095
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109095
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41854
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38516
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 8320
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 88407
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 10087
+D 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_접수번호_d_일련번호_d_검수키_d_파일키_d_모바일발송일련번호_d_물리적PDF파일명_d_고객키__202203021046.csv is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResXb.zip is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .DS_Store is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 0308.epf is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203021005.csv is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 20220314 is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : acns.log is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203041742.csv is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : enc is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : logs is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .gitignore is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package-lock.json is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package.json is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_FROM_mcms_mcms_master_m_mcms_mcms_detail_d_WHERE_m_접수번_202203020950.csv is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_DETAIL_202203041742.csv is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app.log is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResX Installer.app is deleted
+I 20220331 113854 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app_2.log is deleted
+I 20220331 113949 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 72480 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 113949 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 113949 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+I 20220331 113952 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 2.96 seconds (JVM running for 3.602)
+I 20220331 113952 [k.c.b.f.t.Task] [execute:24]                                          : Batch Started.
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41812
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1322
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1322
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 33062
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41854
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 24234
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2543
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38517
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 32873
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2611
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 40314
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109096
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109096
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41855
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38517
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 8321
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 88408
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 10088
+D 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_접수번호_d_일련번호_d_검수키_d_파일키_d_모바일발송일련번호_d_물리적PDF파일명_d_고객키__202203021046.csv is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResXb.zip is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .DS_Store is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 0308.epf is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203021005.csv is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 20220314 is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : acns.log is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203041742.csv is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : enc is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : logs is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .gitignore is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package-lock.json is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package.json is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_FROM_mcms_mcms_master_m_mcms_mcms_detail_d_WHERE_m_접수번_202203020950.csv is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_DETAIL_202203041742.csv is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app.log is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResX Installer.app is deleted
+I 20220331 113952 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app_2.log is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [execute:24]                                          : Batch Started.
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41813
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1322
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1322
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 33062
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41854
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 24234
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2543
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38517
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 32873
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2611
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 40314
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109096
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109096
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41855
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38517
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 8321
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 88408
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 10088
+D 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_접수번호_d_일련번호_d_검수키_d_파일키_d_모바일발송일련번호_d_물리적PDF파일명_d_고객키__202203021046.csv is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResXb.zip is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .DS_Store is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 0308.epf is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203021005.csv is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 20220314 is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : acns.log is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203041742.csv is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : enc is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : logs is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .gitignore is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package-lock.json is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package.json is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_FROM_mcms_mcms_master_m_mcms_mcms_detail_d_WHERE_m_접수번_202203020950.csv is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_DETAIL_202203041742.csv is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app.log is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResX Installer.app is deleted
+I 20220331 114000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app_2.log is deleted
+I 20220331 114052 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 72651 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 114052 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 114052 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+I 20220331 114055 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 2.941 seconds (JVM running for 3.563)
+I 20220331 114055 [k.c.b.f.t.Task] [execute:24]                                          : Batch Started.
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41814
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1323
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1323
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 33063
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41855
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 24235
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2544
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38518
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 32874
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2612
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 40315
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109097
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109097
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41856
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38518
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 8322
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 88409
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 10089
+D 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_접수번호_d_일련번호_d_검수키_d_파일키_d_모바일발송일련번호_d_물리적PDF파일명_d_고객키__202203021046.csv is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResXb.zip is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .DS_Store is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 0308.epf is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203021005.csv is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 20220314 is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : acns.log is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203041742.csv is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : enc is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : logs is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .gitignore is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package-lock.json is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package.json is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_FROM_mcms_mcms_master_m_mcms_mcms_detail_d_WHERE_m_접수번_202203020950.csv is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_DETAIL_202203041742.csv is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app.log is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResX Installer.app is deleted
+I 20220331 114055 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app_2.log is deleted
+I 20220331 114539 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 73462 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 114539 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 114539 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+I 20220331 114541 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 2.958 seconds (JVM running for 3.637)
+I 20220331 115220 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 74575 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 115220 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 115220 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+I 20220331 115223 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 2.956 seconds (JVM running for 3.58)
+I 20220331 121911 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 78919 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 121911 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 121911 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+I 20220331 121913 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 2.704 seconds (JVM running for 3.349)
+I 20220331 122000 [k.c.b.f.t.Task] [execute:24]                                          : Batch Started.
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41853
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1362
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1362
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 33102
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41894
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 24274
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2583
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38557
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 32913
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2651
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 40354
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109136
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109136
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41895
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38557
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 8361
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 88448
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 10128
+D 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_접수번호_d_일련번호_d_검수키_d_파일키_d_모바일발송일련번호_d_물리적PDF파일명_d_고객키__202203021046.csv is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResXb.zip is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .DS_Store is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 0308.epf is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203021005.csv is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 20220314 is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : acns.log is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203041742.csv is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : enc is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : logs is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .gitignore is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package-lock.json is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package.json is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_FROM_mcms_mcms_master_m_mcms_mcms_detail_d_WHERE_m_접수번_202203020950.csv is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_DETAIL_202203041742.csv is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app.log is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResX Installer.app is deleted
+I 20220331 122000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app_2.log is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [execute:24]                                          : Batch Started.
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41863
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1372
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1372
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 33112
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41904
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 24284
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2593
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38567
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 32923
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2661
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 40364
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109146
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109146
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41905
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38567
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 8371
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 88458
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 10138
+D 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_접수번호_d_일련번호_d_검수키_d_파일키_d_모바일발송일련번호_d_물리적PDF파일명_d_고객키__202203021046.csv is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResXb.zip is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .DS_Store is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 0308.epf is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203021005.csv is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 20220314 is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : acns.log is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203041742.csv is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : enc is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : logs is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .gitignore is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package-lock.json is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package.json is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_FROM_mcms_mcms_master_m_mcms_mcms_detail_d_WHERE_m_접수번_202203020950.csv is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_DETAIL_202203041742.csv is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app.log is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResX Installer.app is deleted
+I 20220331 123000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app_2.log is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [execute:24]                                          : Batch Started.
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41873
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1382
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1382
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 33122
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41914
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 24294
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2603
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38577
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 32933
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2671
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 40374
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109156
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109156
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41915
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38577
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 8381
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 88468
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 10148
+D 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_접수번호_d_일련번호_d_검수키_d_파일키_d_모바일발송일련번호_d_물리적PDF파일명_d_고객키__202203021046.csv is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResXb.zip is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .DS_Store is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 0308.epf is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203021005.csv is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 20220314 is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : acns.log is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203041742.csv is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : enc is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : logs is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .gitignore is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package-lock.json is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package.json is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_FROM_mcms_mcms_master_m_mcms_mcms_detail_d_WHERE_m_접수번_202203020950.csv is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_DETAIL_202203041742.csv is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app.log is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResX Installer.app is deleted
+I 20220331 124000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app_2.log is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [execute:24]                                          : Batch Started.
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41883
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1392
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1392
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 33132
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41924
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 24304
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2613
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38587
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 32943
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2681
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 40384
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109166
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109166
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41925
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38587
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 8391
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 88478
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 10158
+D 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_접수번호_d_일련번호_d_검수키_d_파일키_d_모바일발송일련번호_d_물리적PDF파일명_d_고객키__202203021046.csv is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResXb.zip is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .DS_Store is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 0308.epf is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203021005.csv is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 20220314 is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : acns.log is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203041742.csv is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : enc is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : logs is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .gitignore is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package-lock.json is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package.json is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_FROM_mcms_mcms_master_m_mcms_mcms_detail_d_WHERE_m_접수번_202203020950.csv is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_DETAIL_202203041742.csv is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app.log is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResX Installer.app is deleted
+I 20220331 125000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app_2.log is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [execute:24]                                          : Batch Started.
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41893
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1402
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1402
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 33142
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41934
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 24314
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2623
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38597
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 32953
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2691
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 40394
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109176
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109176
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41935
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38597
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 8401
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 88488
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 10168
+D 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_접수번호_d_일련번호_d_검수키_d_파일키_d_모바일발송일련번호_d_물리적PDF파일명_d_고객키__202203021046.csv is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResXb.zip is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .DS_Store is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 0308.epf is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203021005.csv is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 20220314 is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : acns.log is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203041742.csv is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : enc is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : logs is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .gitignore is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package-lock.json is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package.json is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_FROM_mcms_mcms_master_m_mcms_mcms_detail_d_WHERE_m_접수번_202203020950.csv is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_DETAIL_202203041742.csv is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app.log is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResX Installer.app is deleted
+I 20220331 130000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app_2.log is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [execute:24]                                          : Batch Started.
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41903
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1412
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 1412
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 33152
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41944
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 24324
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2633
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38607
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 32963
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 2701
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 40404
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109186
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 109186
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 41945
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 38607
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 8411
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 88498
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:36]                             : now - p.toFile().lastModified(): 10178
+D 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$0:37]                             : timeDiff: 5
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_접수번호_d_일련번호_d_검수키_d_파일키_d_모바일발송일련번호_d_물리적PDF파일명_d_고객키__202203021046.csv is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResXb.zip is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .DS_Store is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 0308.epf is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203021005.csv is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : 20220314 is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : acns.log is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_MASTER_202203041742.csv is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : enc is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : logs is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : .gitignore is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package-lock.json is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : package.json is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : _SELECT_d_FROM_mcms_mcms_master_m_mcms_mcms_detail_d_WHERE_m_접수번_202203020950.csv is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : MCMS_DETAIL_202203041742.csv is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app.log is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : SwitchResX Installer.app is deleted
+I 20220331 131000 [k.c.b.f.t.Task] [lambda$deleteFiles$2:46]                             : app_2.log is deleted
+I 20220331 131641 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 88748 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 131641 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 131641 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+W 20220331 131645 [o.s.c.a.AnnotationConfigApplicationContext] [refresh:591]             : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'batchDataSourceInitializer' defined in class path resource [org/springframework/boot/autoconfigure/batch/BatchAutoConfiguration$DataSourceInitializerConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.batch.BatchDataSourceScriptDatabaseInitializer]: Factory method 'batchDataSourceInitializer' threw exception; nested exception is java.lang.IllegalStateException: Unable to detect database type
+E 20220331 131645 [o.s.b.SpringApplication] [reportFailure:830]                          : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'batchDataSourceInitializer' defined in class path resource [org/springframework/boot/autoconfigure/batch/BatchAutoConfiguration$DataSourceInitializerConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.batch.BatchDataSourceScriptDatabaseInitializer]: Factory method 'batchDataSourceInitializer' threw exception; nested exception is java.lang.IllegalStateException: Unable to detect database type
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at kr.co.billpost.fileDeleteBatch.FileDeleteBatchApplication.main(FileDeleteBatchApplication.java:27)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.batch.BatchDataSourceScriptDatabaseInitializer]: Factory method 'batchDataSourceInitializer' threw exception; nested exception is java.lang.IllegalStateException: Unable to detect database type
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalStateException: Unable to detect database type
+	at org.springframework.util.Assert.state(Assert.java:76)
+	at org.springframework.boot.jdbc.init.PlatformPlaceholderDatabaseDriverResolver.determinePlatform(PlatformPlaceholderDatabaseDriverResolver.java:132)
+	at org.springframework.boot.jdbc.init.PlatformPlaceholderDatabaseDriverResolver.lambda$resolveAll$0(PlatformPlaceholderDatabaseDriverResolver.java:96)
+	at org.springframework.boot.jdbc.init.PlatformPlaceholderDatabaseDriverResolver.resolveAll(PlatformPlaceholderDatabaseDriverResolver.java:121)
+	at org.springframework.boot.jdbc.init.PlatformPlaceholderDatabaseDriverResolver.resolveAll(PlatformPlaceholderDatabaseDriverResolver.java:96)
+	at org.springframework.boot.autoconfigure.batch.BatchDataSourceScriptDatabaseInitializer.resolveSchemaLocations(BatchDataSourceScriptDatabaseInitializer.java:86)
+	at org.springframework.boot.autoconfigure.batch.BatchDataSourceScriptDatabaseInitializer.getSettings(BatchDataSourceScriptDatabaseInitializer.java:73)
+	at org.springframework.boot.autoconfigure.batch.BatchDataSourceScriptDatabaseInitializer.<init>(BatchDataSourceScriptDatabaseInitializer.java:48)
+	at org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$DataSourceInitializerConfiguration.batchDataSourceInitializer(BatchAutoConfiguration.java:117)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 21 common frames omitted
+I 20220331 162407 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 35563 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 162407 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 162407 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+I 20220331 162410 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 3.034 seconds (JVM running for 3.804)
+I 20220331 162420 [k.c.b.f.t.Task] [execute:28]                                          : Batch Started.
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 191
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 33347
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 191
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 33158
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 192
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 40598
+D 20220331 162420 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+I 20220331 162420 [k.c.b.f.t.Task] [lambda$2:50]                                         : .DS_Store is deleted
+I 20220331 162420 [k.c.b.f.t.Task] [lambda$2:50]                                         : 0308.epf is deleted
+I 20220331 162420 [k.c.b.f.t.Task] [lambda$2:50]                                         : 20220314 is deleted
+I 20220331 162420 [k.c.b.f.t.Task] [lambda$2:50]                                         : enc is deleted
+I 20220331 162420 [k.c.b.f.t.Task] [lambda$2:50]                                         : logs is deleted
+I 20220331 162420 [k.c.b.f.t.Task] [lambda$2:50]                                         : .gitignore is deleted
+I 20220331 162430 [k.c.b.f.t.Task] [execute:28]                                          : Batch Started.
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 191
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 33347
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 191
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 33158
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 192
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 40598
+D 20220331 162430 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+I 20220331 162430 [k.c.b.f.t.Task] [lambda$2:50]                                         : .DS_Store is deleted
+I 20220331 162430 [k.c.b.f.t.Task] [lambda$2:50]                                         : 0308.epf is deleted
+I 20220331 162430 [k.c.b.f.t.Task] [lambda$2:50]                                         : 20220314 is deleted
+I 20220331 162430 [k.c.b.f.t.Task] [lambda$2:50]                                         : enc is deleted
+I 20220331 162430 [k.c.b.f.t.Task] [lambda$2:50]                                         : logs is deleted
+I 20220331 162430 [k.c.b.f.t.Task] [lambda$2:50]                                         : .gitignore is deleted
+I 20220331 162457 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 35718 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 162457 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 162457 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+I 20220331 162459 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 2.837 seconds (JVM running for 3.438)
+I 20220331 162500 [k.c.b.f.t.Task] [execute:28]                                          : Batch Started.
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 192
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 33347
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 192
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 33158
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 192
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 40599
+D 20220331 162500 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+I 20220331 162500 [k.c.b.f.t.Task] [lambda$2:50]                                         : .DS_Store is deleted
+I 20220331 162500 [k.c.b.f.t.Task] [lambda$2:50]                                         : 0308.epf is deleted
+I 20220331 162500 [k.c.b.f.t.Task] [lambda$2:50]                                         : 20220314 is deleted
+I 20220331 162500 [k.c.b.f.t.Task] [lambda$2:50]                                         : enc is deleted
+I 20220331 162500 [k.c.b.f.t.Task] [lambda$2:50]                                         : logs is deleted
+I 20220331 162500 [k.c.b.f.t.Task] [lambda$2:50]                                         : .gitignore is deleted
+I 20220331 162505 [k.c.b.f.t.Task] [execute:28]                                          : Batch Started.
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 192
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 33347
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 192
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 33158
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 192
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:40]                                         : now - p.toFile().lastModified(): 40599
+D 20220331 162505 [k.c.b.f.t.Task] [lambda$0:41]                                         : timeDiff: 5
+I 20220331 162505 [k.c.b.f.t.Task] [lambda$2:50]                                         : .DS_Store is deleted
+I 20220331 162505 [k.c.b.f.t.Task] [lambda$2:50]                                         : 0308.epf is deleted
+I 20220331 162505 [k.c.b.f.t.Task] [lambda$2:50]                                         : 20220314 is deleted
+I 20220331 162505 [k.c.b.f.t.Task] [lambda$2:50]                                         : enc is deleted
+I 20220331 162505 [k.c.b.f.t.Task] [lambda$2:50]                                         : logs is deleted
+I 20220331 162505 [k.c.b.f.t.Task] [lambda$2:50]                                         : .gitignore is deleted
+I 20220331 165919 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 42736 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 165919 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 165919 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+I 20220331 165921 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 2.789 seconds (JVM running for 3.432)
+I 20220331 165925 [k.c.b.f.t.Task] [execute:32]                                          : Batch Started.
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/logs/.DS_Store is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/logs is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/enc/22C0129200000002CCc00000028974Cc.pdf is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/enc/22C0129200000002CCc00000028974Cc.enc is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/enc/22C0129200000001BBb00000012136Bb.pdf is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/enc/22C0129200000001BBb00000012136Bb.enc is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.pdf is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.hash is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.end is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.enc is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/enc is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/20220314/신용관리파트/20220314001.zip is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/20220314/신용관리파트 is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/20220314/.DS_Store is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/20220314 is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/0308.epf is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/.gitignore is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp/.DS_Store is deleted
+I 20220331 165925 [k.c.b.f.t.Task] [lambda$2:70]                                         : /Users/Jason/Temp is deleted
+I 20220331 170706 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 44295 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 170706 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 170706 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+I 20220331 170708 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 2.866 seconds (JVM running for 3.53)
+I 20220331 170710 [k.c.b.f.t.Task] [execute:32]                                          : Batch Started.
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/logs/.DS_Store is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22C0129200000002CCc00000028974Cc.pdf is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22C0129200000002CCc00000028974Cc.enc is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22C0129200000001BBb00000012136Bb.pdf is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22C0129200000001BBb00000012136Bb.enc is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.pdf is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.hash is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.end is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.enc is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/20220314/신용관리파트/20220314001.zip is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/20220314/.DS_Store is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/0308.epf is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/.gitignore is deleted
+I 20220331 170710 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/.DS_Store is deleted
+I 20220331 170808 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 44607 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 170808 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 170808 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+I 20220331 170810 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 2.754 seconds (JVM running for 3.392)
+I 20220331 170815 [k.c.b.f.t.Task] [execute:32]                                          : Batch Started.
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/logs/.DS_Store is deleted
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22C0129200000002CCc00000028974Cc.pdf is deleted
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22C0129200000002CCc00000028974Cc.enc is deleted
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22C0129200000001BBb00000012136Bb.pdf is deleted
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22C0129200000001BBb00000012136Bb.enc is deleted
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.pdf is deleted
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.hash is deleted
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.end is deleted
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.enc is deleted
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/20220314/신용관리파트/20220314001.zip is deleted
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/0308.epf is deleted
+I 20220331 170815 [k.c.b.f.t.Task] [lambda$4:72]                                         : /Users/Jason/Temp/.gitignore is deleted
+I 20220331 170852 [k.c.b.f.FileDeleteBatchApplication] [logStarting:55]                  : Starting FileDeleteBatchApplication using Java 15.0.2 on 201-1-26-113.dsl.telesp.net.br with PID 44744 (/Users/Jason/eclipse-workspace/FileDeleteBatch/target/classes started by Jason in /Users/Jason/eclipse-workspace/FileDeleteBatch)
+D 20220331 170852 [k.c.b.f.FileDeleteBatchApplication] [logStarting:56]                  : Running with Spring Boot v2.6.5, Spring v5.3.17
+I 20220331 170852 [k.c.b.f.FileDeleteBatchApplication] [logStartupProfileInfo:646]       : The following 1 profile is active: "local"
+I 20220331 170854 [k.c.b.f.FileDeleteBatchApplication] [logStarted:61]                   : Started FileDeleteBatchApplication in 2.733 seconds (JVM running for 3.385)
+I 20220331 170855 [k.c.b.f.t.Task] [execute:32]                                          : Batch Started.
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/.DS_Store is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/0308.epf is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/20220314/.DS_Store is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/20220314/신용관리파트/20220314001.zip is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/test1 is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.hash is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/enc/22C0129200000002CCc00000028974Cc.enc is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.end is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.enc is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/enc/22C0129200000001BBb00000012136Bb.enc is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/enc/22C0129200000001BBb00000012136Bb.pdf is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/enc/22B0126300000001BBb00000022754Bb.pdf is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/enc/22C0129200000002CCc00000028974Cc.pdf is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/logs/.DS_Store is deleted
+I 20220331 170855 [k.c.b.f.t.Task] [lambda$2:72]                                         : /Users/Jason/Temp/.gitignore is deleted

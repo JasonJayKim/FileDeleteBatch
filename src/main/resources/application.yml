@@ -1,20 +1,21 @@
 config:
-  name: fileDeleteBatch
+  name: fileDeleteBatch             # log파일명 (./logs/파일명.log)
+  lastModifiedBeforeMin: 5          # 삭제할 대상파일의 시간(수정한 날짜) 범위 (분)
+  rootFolder: '/Users/Jason/Temp'   # 대상 폴더 (하위 전체 폴더 내 파일이 대상임. 폴더는 삭제안됨)
+  cron: '0/5 * * * * *'             # 크론식
 spring:
   profiles:
     active: local
   batch:
     job:
-      enabled: true
-  datasource:
-    jdbc-url: jdbc:h2:tcp://localhost/~/test;DB_CLOSE_ON_EXIT=TRUE;FILE_LOCK=NO
-    username: sa
-    password: 
-    driverClassName: org.h2.Driver
+      enabled: false
+#  datasource:
+#    hikari: 
+#      jdbc-url: jdbc:h2:tcp://localhost/~/test;DB_CLOSE_ON_EXIT=TRUE;FILE_LOCK=NO
+#      username: sa
+#      password: 
+#      driverClassName: org.h2.Driver
 logging:
-  logback:
-    rollingpolicy:
-      max-history: 365
   charset:
     console: UTF-8
     file: UTF-8

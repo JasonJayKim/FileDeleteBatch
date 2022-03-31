@@ -28,7 +28,7 @@ public class FileDeleteBatchApplication {
 	}
 
 	// 초 분 시 일 월 요일 년(생략)
-	@Scheduled(cron = "0 0/10 * * * *")
+	@Scheduled(cron = "${config.cron:0 0/5 * * * *}")
 	public void job() {
 		JobParameters jobParameters = new JobParametersBuilder().addLong("JOB", System.currentTimeMillis()).toJobParameters();
 		try {
