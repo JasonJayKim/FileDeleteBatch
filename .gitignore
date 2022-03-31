@@ -13,4 +13,4 @@ target/
 .springBeans
 .sts4-c
 
-.log
+logs/
