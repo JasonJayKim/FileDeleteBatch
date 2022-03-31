@@ -33,8 +33,8 @@ public class Task implements Tasklet {
 
 		try {
 			Files.newDirectoryStream(Paths.get(rootPath)).forEach(p -> {
-				log.info("now - p.toFile().lastModified(): {}", TimeUnit.MILLISECONDS.toMinutes(now - p.toFile().lastModified()));
-				log.info("timeDiff: {}", TimeUnit.MILLISECONDS.toMinutes(timeDiff));
+				log.debug("now - p.toFile().lastModified(): {}", TimeUnit.MILLISECONDS.toMinutes(now - p.toFile().lastModified()));
+				log.debug("timeDiff: {}", TimeUnit.MILLISECONDS.toMinutes(timeDiff));
 			});
 			
 			Files.newDirectoryStream(Paths.get(rootPath), p -> (now - p.toFile().lastModified() > timeDiff)).forEach(p -> {

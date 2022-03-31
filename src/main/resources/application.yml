@@ -1,4 +1,8 @@
+config:
+  name: fileDeleteBatch
 spring:
+  profiles:
+    active: local
   batch:
     job:
       enabled: true
@@ -7,3 +11,29 @@ spring:
     username: sa
     password: 
     driverClassName: org.h2.Driver
+logging:
+  logback:
+    rollingpolicy:
+      max-history: 365
+  charset:
+    console: UTF-8
+    file: UTF-8
+  file:
+    name: ./logs/${config.name}.log
+  pattern:
+    console: '%highlight(%.-1p) %green(%d{HHmmss}) %-70.70([%c{1}] [%cyan(%M):%gray(%L)]) : %m%n'
+    file: '%.-1p %d{yyyyMMdd HHmmss} %-70.70([%c{1}] [%M:%L]) : %m%n'
+  level:
+    kr.co.billpost.fileDeleteBatch: debug
+    org.springframework: warn
+    com.zaxxer:
+      hikari: off
+      hikari.HikariConfig: off
+    log4jdbc.log4j2: warn
+    jdbc: 
+      sqlonly: off
+      sqltiming: debug
+      audit: off
+      resultset: off
+      resultsettable: debug
+      connection: off
